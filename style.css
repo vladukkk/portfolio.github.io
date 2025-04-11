@@ -1,0 +1,41 @@
+
+/* *{
+    border: 1px solid red;
+}  */
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #171718;
+    color: white;
+    padding: 20px 0px;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+
+.headear {
+    background-color: transparent;
+    height: 1000px;
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+}
+
+.teck-logo {
+    width: 25px;
+    height: 25x;
+    margin-right: 2px;
+}
+
+.teck-logo {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    vertical-align: middle;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
