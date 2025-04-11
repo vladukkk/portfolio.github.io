@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title" : "BeFit – Meal Tracker",
+        "type" : "(Pet Project)",
+        "teamtype" : "work in team",
+        "description" : "BeFit is a mobile app designed to help users track their daily food intake and calorie consumption.",
+        "image" : "images/befit1.png",
+        "date" : "oct 2024",
+        "technologies" : ["Java", "Android SDK", "Firebase", "Sqlite"],
+        "link" : "https://github.com/yourusername/befit"
+    },
+    {
+        "id": 2,
+        "title" : "BeFit – Meal Tracker",
+        "type" : "(Pet Project)",
+        "teamtype" : "Individual",
+        "description" : "A desktop app that allows administrator to manage physical activities and helpful posts displayed in the mobile app",
+        "image" : "images/befitAdmin.png",
+        "date" : "nov 2024",
+        "technologies" : ["C#", ".NET", "Windows Forms", "FireBase"],
+        "link" : "https://github.com/vladukkk/BeFitAdmin"
+    },
+    {
+        "id": 3,
+        "title" : "404 Cinema",
+        "type" : "(Practice Project)",
+        "teamtype" : "work in team",
+        "description" : "A web application for browsing movies, managing sessions, and booking tickets. Built using a 3-layer architecture (Presentation, Business Logic, Data Access) following the MVC pattern.",
+        "image" : "images/cinema2.jpg",
+        "date" : "jan 2025",
+        "technologies" : ["C#", "ASP.NET Core", "EF Core", "MariaDB", "HTML", "CSS", "JavaScript"],
+        "link" : "https://github.com/9uyone/brew404-cinema-webapp/tree/dev"
+    },
+    {
+        "id": 4,
+        "title" : "Taskly",
+        "type" : "(Pet Project)",
+        "teamtype" : "Individual",
+        "description" : "A project for task creation and management, implemented using a 3-layer architecture.",
+        "image" : "images/taskly1.png",
+        "date" : "feb 2025",
+        "technologies" : ["C#", "ASP.NET Core", "EF Core", "Sql Server", "HTML", "CSS", "JavaScript"],
+        "link" : "https://github.com/vladukkk/TasklySolution/tree/dev"
+    }
+]

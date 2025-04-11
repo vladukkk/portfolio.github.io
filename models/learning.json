@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "title" : "Parallel Programming in C#"
+    },
+    {
+        "id" : 2,
+        "title" : "Chaching (Redis)"
+    },
+    {
+        "id" : 3,
+        "title" : "Backgroud Services"
+    },
+    {
+        "id" : 4,
+        "title" : "Token-Based Authentication"
+    },
+    {
+        "id" : 5,
+        "title" : "Clean Architecture (CQRS, MediatR)"
+    },
+    {
+        "id" : 6,
+        "title" : "ASP.NET Core (Advanced)"
+    },
+    {
+        "id" : 4,
+        "title" : "Docker"
+    },
+    {
+        "id" : 5,
+        "title" : "Azure"
+    },
+    {
+        "id" : 6,
+        "title" : "English (Speaking)"
+    }
+]

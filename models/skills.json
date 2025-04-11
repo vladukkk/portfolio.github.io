@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "title" : "C#",
+        "description" : "Good in object-oriented programming and backend systems development.",
+        "image" : "images/icons/c.svg"
+    },
+    {
+        "id" : 2,
+        "title" : ".NET Core",
+        "description" : "Hands-on experience with ASP.NET Core and Entity Framework Core for web APIs.",
+        "image" : "images/icons/dot-net.svg"
+    },
+    {
+        "id" : 3,
+        "title" : "SQL",
+        "description" : "Skilled in database design, optimization, and querying using SQL Server.",
+        "image" : "images/icons/sql.svg"
+    },
+    {
+        "id" : 4,
+        "title" : "Git & GitHub",
+        "description" : "Proficient in version control systems and collaborative development practices.",
+        "image" : "images/icons/github.svg"
+    },
+    {
+        "id" : 5,
+        "title" : "Java",
+        "description" : "Hands-on object-oriented programming experience for android development.",
+        "image" : "images/icons/java.svg"
+    },
+    {
+        "id" : 6,
+        "title" : "HTML/CSS",
+        "description" : "Basic understanding of HTML/CSS/JS for frontend interactions and enhancements.",
+        "image" : "images/icons/html.svg"
+    }
+]
