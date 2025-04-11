@@ -45,7 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="${project.link}" class="btn btn-dark mt-3">View MVC</a>
                     <a href="https://github.com/vladukkk/Taskly_API/tree/dev" class="btn btn-dark mt-3">View API</a>
                     `
-                    : '<a href="${project.link}" class="btn btn-dark mt-3">View on GitHub</a>';
+                    : `
+                    <a href="${project.link}" class="btn btn-dark mt-3">View on GitHub</a>
+                    `;
 
 
                 row.innerHTML = `
