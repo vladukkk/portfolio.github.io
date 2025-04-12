@@ -14,14 +14,30 @@ scene.add(sphere);
 const light = new THREE.PointLight(0xffffff , 1, 100);
 light.position.set(15, 15, 10);
 scene.add(light);
-camera.position.z = 4;
+
+camera.position.z = 8;
+let targetZ = 4;
+let zoomSpeed = 0.1;
+
+function animateZoom() {
+    if (camera.position.z > targetZ) {
+        camera.position.z -= zoomSpeed;
+        if (camera.position.z < targetZ) {
+            camera.position.z = targetZ;
+        }
+        requestAnimationFrame(animateZoom);
+    }
+}
+
+animateZoom();
+
 function animate() {
     requestAnimationFrame(animate);
     sphere.rotation.y += 0.001;
     renderer.render(scene, camera);
 }
 animate();
-// Resize canvas on window resize
+
 window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
