@@ -15,7 +15,7 @@ const light = new THREE.PointLight(0xffffff , 1, 100);
 light.position.set(15, 15, 10);
 scene.add(light);
 
-camera.position.z = 8;
+camera.position.z = 10;
 let targetZ = 4;
 let zoomSpeed = 0.1;
 
