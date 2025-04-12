@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         data.forEach(learning => {
             const li = document.createElement('li');
-            li.className = 'list-group-item';
+            li.className = 'list-group-item p-4';
 
             li.innerHTML = `📌${learning.title}`;
 
