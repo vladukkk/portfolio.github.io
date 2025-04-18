@@ -14,7 +14,7 @@
     {
         "id" : 3,
         "title" : "SQL",
-        "description" : "Skilled in database design, optimization, and querying using SQL Server.",
+        "description" : "Skilled in database design, optimization, and querying using SQL.",
         "image" : "images/icons/sql.svg"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id" : 6,
         "title" : "HTML/CSS",
-        "description" : "Basic understanding of HTML/CSS/JS for frontend interactions and enhancements.",
+        "description" : "Basic understanding of HTML/CSS/JS for frontend interface and enhancements.",
         "image" : "images/icons/html.svg"
     }
 ]
